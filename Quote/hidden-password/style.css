@@ -1,0 +1,83 @@
+:root{
+    --primary-color:white;
+    --secondary-color:black;
+}
+
+.dark-theme{
+    --primary-color:black;
+    --secondary-color:white;
+}
+
+.container span{
+    color:red;
+    position: absolute;
+    font-size: 14px;
+}
+
+.container span i{
+    color:seagreen;
+}
+
+h2{
+    color: var(--secondary-color);
+}
+
+i{
+    color: var(--secondary-color);
+}
+
+body{
+    background-color:var(--primary-color);
+}
+.container{
+    width: 400px;
+    margin:30px auto;
+    background-color:var(--primary-color);
+}
+
+
+
+input{
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+
+
+p{
+    margin:12px 12px;
+    margin-left: 20px;
+}
+
+.btn{
+    background-color: var(--secondary-color);
+    padding: 16px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+input:focus{
+    outline: none;
+    border: 1px solid rgb(0, 128, 255);
+}
+
+
+.card{
+    border: 1px solid lightgray;
+    display: flex;
+    gap:20px;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+.input-grp{
+    margin:10px;
+}
+

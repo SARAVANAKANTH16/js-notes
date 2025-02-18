@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <div class="container">
+        <i class="fa-solid fa-sun" id="icon" class="ic"></i>
+        <h2>Add New User</h2>
+        <p><input type="text" id="na" placeholder="Enter name" onkeyup="validatename()"><span id="naerror"></span><i class="fa-solid fa-eye" onclick="eye()" ></i></p>
+        <p><input type="text" id="email" placeholder="Enter email" onkeyup="validateemail()"><span id="emailerror"></span><i class="fa-solid fa-eye" onclick="eye1()"></i></p>
+        <button class="btn" onclick="addUser()">Add User</button>
+    </div>
+
+    <div class="container" id="users">
+
+    </div>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/502a5a7338.js" crossorigin="anonymous"></script>
+</body>
+</html>
